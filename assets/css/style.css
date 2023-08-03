@@ -389,7 +389,7 @@ select {
 }
 
 .logo {
-	padding: 25px;
+	padding: 10px 20px 10px 20px;
 }
 
 .logo__link {
@@ -402,7 +402,8 @@ select {
 }
 
 .logo__img {
-	max-height: 256px;
+	max-width: 100px;
+	max-height: 100px;
 }
 
 .logo__text {
@@ -414,8 +415,8 @@ select {
 }
 
 .logo--mixed .logo__img {
-	max-width: 128px;
-	max-height: 128px;
+	max-width: 70px;
+	max-height: 70px;
 }
 
 .logo--mixed .logo__text {
@@ -1207,9 +1208,12 @@ textarea {
 		margin: 0 auto;
 	}
 
-	.wrapper,
-	.logo {
+	.wrapper {
 		padding: 20px;
+	}
+
+	.logo {
+		padding: 5px;
 	}
 
 	.widget {
