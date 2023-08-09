@@ -402,8 +402,8 @@ select {
 }
 
 .logo__img {
-	max-width: 100px;
-	max-height: 100px;
+	width: auto;
+	height: 70px;
 }
 
 .logo__text {
@@ -415,8 +415,8 @@ select {
 }
 
 .logo--mixed .logo__img {
-	max-width: 70px;
-	max-height: 70px;
+	width: auto;
+	height: 70px;
 }
 
 .logo--mixed .logo__text {
